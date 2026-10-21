@@ -1,0 +1,120 @@
+[
+  {
+    "key": "layout",
+    "order": 1,
+    "eyebrow": "Visual layout editor",
+    "title": "Drag and drop sections into place",
+    "text": "Build pages from theme sections. Each section is a template annotation in your markdown, so what you arrange visually is saved as plain content you can read and version.",
+    "ticks": [
+      "Drag-and-drop interface",
+      "Real-time preview",
+      "Component properties panel",
+      "Theme sections via template annotations (HTML comments in markdown)"
+    ],
+    "visual": "ui-layout",
+    "visualUrl": "localhost:2211/editor/andrewsuk",
+    "visualKind": "recreation",
+    "source": "README.md, docs/GETTING_STARTED.md (Visual Editor), apps/web/src/components/LayoutEditor.vue"
+  },
+  {
+    "key": "blocks",
+    "order": 2,
+    "eyebrow": "Block editor",
+    "title": "A block editor that renders your real sections",
+    "text": "The block editor renders live Vue section components in the canvas and gives every block a schema-driven settings panel. Existing markdown files load into blocks and save back to the same format.",
+    "ticks": [
+      "Type `/` to open the block palette, filter with `/hero`, `/head` or `/image`",
+      "Text, Heading, Section, Layout, Image, Quote, Divider, List and Carousel blocks",
+      "Block controls for drag handle, duplicate, delete and settings",
+      "Per-line list indentation with Tab and Shift+Tab"
+    ],
+    "visual": "ui-blocks",
+    "visualUrl": "localhost:2211/editor/andrewsuk",
+    "visualKind": "recreation",
+    "source": "docs/BLOCK_EDITOR_PLAN.md, apps/web/src/components/block-editor/registry.ts, CHANGELOG.md"
+  },
+  {
+    "key": "markdown",
+    "order": 3,
+    "eyebrow": "Markdown content editing",
+    "title": "Your content stays in markdown",
+    "text": "Content lives under `sites/<slug>/content/*.md`. Greemo extends markdown with special comment tags for template parsing, so sections, data and components sit alongside ordinary text.",
+    "ticks": [
+      "Frontmatter for page metadata",
+      "`<!-- template name=\"hero\" … -->` template tags",
+      "`<!-- data source=\"posts\" format=\"json\" -->` data tags",
+      "Show a preview while editing"
+    ],
+    "visual": "ui-markdown",
+    "visualUrl": "localhost:2211/editor/andrewsuk",
+    "visualKind": "recreation",
+    "source": "docs/GETTING_STARTED.md, docs/ARCHITECTURE.md (Comment Tag System), apps/web Settings (Live preview)"
+  },
+  {
+    "key": "ai",
+    "order": 4,
+    "eyebrow": "AI site generation assistant",
+    "title": "Ask for changes in plain English",
+    "text": "The AI assistant lets you work with a site in natural language. It understands the current page and site context, suggests changes for review and reflects applied changes immediately in preview.",
+    "ticks": [
+      "Context-Aware: understands current page and site context",
+      "Preview Changes: review before applying",
+      "Undo/Reject: reject unwanted changes",
+      "Built-in prompts such as \"Rewrite this page\", \"Add a hero section\" and \"Shorten the copy\""
+    ],
+    "visual": "ui-ai",
+    "visualUrl": "localhost:2211/editor/andrewsuk",
+    "visualKind": "recreation",
+    "source": "docs/AI_TOOLS.md (In-Editor AI Assistant), apps/web/src/components/AiBar.vue"
+  },
+  {
+    "key": "templates",
+    "order": 5,
+    "eyebrow": "Template switching",
+    "title": "Vue, React or Svelte: pick your framework",
+    "text": "Templates are framework-agnostic HTML files with placeholders, and the framework is a project setting. Choose Vue.js, React or Svelte, with Tailwind 4 styling integration.",
+    "ticks": [
+      "Vue.js: component-based architecture, reactive data binding, Single File Components",
+      "React: JSX support, hooks and functional components",
+      "Svelte: compile-time optimisation, minimal runtime",
+      "Install a website theme and choose its header and footer"
+    ],
+    "visual": "shot:real-settings-framework.webp",
+    "visualUrl": "localhost:2211/settings",
+    "visualKind": "real",
+    "source": "docs/GETTING_STARTED.md (Framework Support), README.md, packages/cli/src/cli.ts (theme)"
+  },
+  {
+    "key": "sites",
+    "order": 6,
+    "eyebrow": "Multi-site management",
+    "title": "Every site in one workspace",
+    "text": "Choose the folder where sites will live and Greemo manages each site from a local `sites/<slug>/` workspace. Switch between sites from the editor header.",
+    "ticks": [
+      "Switch between multiple sites",
+      "Repository-based site management",
+      "Shared templates and components",
+      "New Project and Scan for Projects from the dashboard"
+    ],
+    "visual": "sites-combo",
+    "visualUrl": "localhost:2211/editor/andrewsuk",
+    "visualKind": "both",
+    "source": "docs/GETTING_STARTED.md (Multi-Site Management), apps/web/src/components/SiteSwitcher.vue, modals/SwitchSiteModal.vue"
+  },
+  {
+    "key": "sections",
+    "order": 7,
+    "eyebrow": "Sections library",
+    "title": "Reusable sections for every theme",
+    "text": "A curated collection of section components that can be added to any Greemo theme, with local overrides per site. Browse default and custom blocks, or drop in a JSON file or a folder.",
+    "ticks": [
+      "Hero, Features, Text Block, Column grid and Stack defaults",
+      "`greemo sections list`, `add`, `remove` and `sync`",
+      "Collected from the most complete sites and organised for easy reuse"
+    ],
+    "visual": "shot:real-blocks-library.webp",
+    "visualUrl": "localhost:2211/blocks",
+    "visualKind": "real",
+    "source": "packages/sections/README.md, apps/web Blocks view"
+  }
+]

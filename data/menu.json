@@ -1,0 +1,251 @@
+{
+  "locations": {
+    "header": {
+      "name": "Header",
+      "description": "Main navigation",
+      "items": [
+        {
+          "id": "h-features",
+          "label": "Features",
+          "path": "/features",
+          "external": false
+        },
+        {
+          "id": "h-ai",
+          "label": "AI tools",
+          "path": "/ai-tools",
+          "external": false
+        },
+        {
+          "id": "h-templates",
+          "label": "Templates",
+          "path": "/templates",
+          "external": false
+        },
+        {
+          "id": "h-pricing",
+          "label": "Pricing",
+          "path": "/pricing",
+          "external": false
+        }
+      ]
+    },
+    "header-cta": {
+      "name": "Header button",
+      "description": "The green button in the header",
+      "items": [
+        {
+          "id": "h-cta",
+          "label": "Get started",
+          "path": "/get-started",
+          "external": false
+        }
+      ]
+    },
+    "footer-product": {
+      "name": "Footer: Product",
+      "description": "Product column",
+      "items": [
+        {
+          "id": "fp-features",
+          "label": "Features",
+          "path": "/features",
+          "external": false
+        },
+        {
+          "id": "fp-ai",
+          "label": "AI tools",
+          "path": "/ai-tools",
+          "external": false
+        },
+        {
+          "id": "fp-templates",
+          "label": "Templates",
+          "path": "/templates",
+          "external": false
+        },
+        {
+          "id": "fp-pricing",
+          "label": "Pricing",
+          "path": "/pricing",
+          "external": false
+        }
+      ]
+    },
+    "footer-developers": {
+      "name": "Footer: Developers",
+      "description": "Developers column",
+      "items": [
+        {
+          "id": "fd-quick",
+          "label": "Quick start",
+          "path": "/get-started",
+          "external": false
+        },
+        {
+          "id": "fd-cli",
+          "label": "CLI commands",
+          "path": "/ai-tools#cli",
+          "external": false
+        },
+        {
+          "id": "fd-api",
+          "label": "HTTP API",
+          "path": "/ai-tools#api",
+          "external": false
+        },
+        {
+          "id": "fd-export",
+          "label": "Export and import",
+          "path": "/ai-tools#export",
+          "external": false
+        }
+      ]
+    },
+    "footer-company": {
+      "name": "Footer: Company",
+      "description": "Company column",
+      "items": [
+        {
+          "id": "fc-contact",
+          "label": "Contact",
+          "path": "/get-started#contact",
+          "external": false
+        }
+      ]
+    }
+  },
+  "locationOrder": [
+    "header",
+    "header-cta",
+    "footer-product",
+    "footer-developers",
+    "footer-company"
+  ],
+  "menus": [
+    {
+      "id": "header",
+      "name": "Header",
+      "location": "header",
+      "description": "Main navigation",
+      "items": [
+        {
+          "id": "h-features",
+          "label": "Features",
+          "path": "/features",
+          "external": false
+        },
+        {
+          "id": "h-ai",
+          "label": "AI tools",
+          "path": "/ai-tools",
+          "external": false
+        },
+        {
+          "id": "h-templates",
+          "label": "Templates",
+          "path": "/templates",
+          "external": false
+        },
+        {
+          "id": "h-pricing",
+          "label": "Pricing",
+          "path": "/pricing",
+          "external": false
+        }
+      ]
+    },
+    {
+      "id": "header-cta",
+      "name": "Header button",
+      "location": "header-cta",
+      "description": "The green button in the header",
+      "items": [
+        {
+          "id": "h-cta",
+          "label": "Get started",
+          "path": "/get-started",
+          "external": false
+        }
+      ]
+    },
+    {
+      "id": "footer-product",
+      "name": "Footer: Product",
+      "location": "footer-product",
+      "description": "Product column",
+      "items": [
+        {
+          "id": "fp-features",
+          "label": "Features",
+          "path": "/features",
+          "external": false
+        },
+        {
+          "id": "fp-ai",
+          "label": "AI tools",
+          "path": "/ai-tools",
+          "external": false
+        },
+        {
+          "id": "fp-templates",
+          "label": "Templates",
+          "path": "/templates",
+          "external": false
+        },
+        {
+          "id": "fp-pricing",
+          "label": "Pricing",
+          "path": "/pricing",
+          "external": false
+        }
+      ]
+    },
+    {
+      "id": "footer-developers",
+      "name": "Footer: Developers",
+      "location": "footer-developers",
+      "description": "Developers column",
+      "items": [
+        {
+          "id": "fd-quick",
+          "label": "Quick start",
+          "path": "/get-started",
+          "external": false
+        },
+        {
+          "id": "fd-cli",
+          "label": "CLI commands",
+          "path": "/ai-tools#cli",
+          "external": false
+        },
+        {
+          "id": "fd-api",
+          "label": "HTTP API",
+          "path": "/ai-tools#api",
+          "external": false
+        },
+        {
+          "id": "fd-export",
+          "label": "Export and import",
+          "path": "/ai-tools#export",
+          "external": false
+        }
+      ]
+    },
+    {
+      "id": "footer-company",
+      "name": "Footer: Company",
+      "location": "footer-company",
+      "description": "Company column",
+      "items": [
+        {
+          "id": "fc-contact",
+          "label": "Contact",
+          "path": "/get-started#contact",
+          "external": false
+        }
+      ]
+    }
+  ]
+}

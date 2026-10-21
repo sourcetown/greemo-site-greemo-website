@@ -1,0 +1,49 @@
+{
+  "dataDelivery": "static",
+  "collections": {
+    "site": {
+      "source": "json",
+      "url": "/data/site.json"
+    },
+    "aiSurfaces": {
+      "source": "json",
+      "url": "/data/aiSurfaces.json"
+    },
+    "features": {
+      "source": "json",
+      "url": "/data/features.json"
+    },
+    "cliCommands": {
+      "source": "json",
+      "url": "/data/cliCommands.json"
+    },
+    "company": {
+      "source": "json",
+      "url": "/data/company.json"
+    },
+    "menu": {
+      "source": "json",
+      "url": "/data/menu.json"
+    },
+    "frameworks": {
+      "source": "json",
+      "url": "/data/frameworks.json"
+    },
+    "sectionsLibrary": {
+      "source": "json",
+      "url": "/data/sectionsLibrary.json"
+    },
+    "plans": {
+      "source": "json",
+      "url": "/data/plans.json"
+    },
+    "keyFeatures": {
+      "source": "json",
+      "url": "/data/keyFeatures.json"
+    },
+    "endpoints": {
+      "source": "json",
+      "url": "/data/endpoints.json"
+    }
+  }
+}
