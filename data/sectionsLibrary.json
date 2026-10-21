@@ -1,0 +1,54 @@
+[
+  {
+    "key": "hero",
+    "name": "hero"
+  },
+  {
+    "key": "features",
+    "name": "features"
+  },
+  {
+    "key": "features-slider",
+    "name": "features-slider"
+  },
+  {
+    "key": "how-it-works",
+    "name": "how-it-works"
+  },
+  {
+    "key": "productfamily",
+    "name": "productfamily"
+  },
+  {
+    "key": "company",
+    "name": "company"
+  },
+  {
+    "key": "stats",
+    "name": "stats"
+  },
+  {
+    "key": "cta",
+    "name": "cta"
+  },
+  {
+    "key": "faq",
+    "name": "faq"
+  },
+  {
+    "key": "contact",
+    "name": "contact"
+  },
+  {
+    "key": "contact-form",
+    "name": "contact-form"
+  },
+  {
+    "key": "exclusive-content",
+    "name": "exclusive-content"
+  },
+  {
+    "key": "listen-your-way",
+    "name": "listen-your-way"
+  }
+]

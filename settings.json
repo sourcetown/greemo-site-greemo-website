@@ -1,0 +1,83 @@
+{
+  "title": "Greemo",
+  "description": "Greemo is a lightweight visual website builder with markdown content, framework-agnostic templates and AI-facing tools for site generation and management.",
+  "keywords": [
+    "website builder",
+    "visual editor",
+    "markdown",
+    "cms",
+    "vue",
+    "react",
+    "svelte"
+  ],
+  "author": "",
+  "domain": "",
+  "siteUrl": "",
+  "favicon": "/media/favicons/favicon-32x32.png",
+  "favicons": {
+    "svg": "/media/favicons/favicon.svg",
+    "default": "/media/favicons/favicon-32x32.png",
+    "appleTouchIcon": "/media/favicons/apple-touch-icon.png",
+    "androidChrome192": "/media/favicons/android-chrome-192x192.png",
+    "androidChrome512": "/media/favicons/android-chrome-512x512.png",
+    "favicon16": "/media/favicons/favicon-16x16.png",
+    "favicon32": "/media/favicons/favicon-32x32.png"
+  },
+  "theme": {
+    "name": "greemo",
+    "primaryColor": "#16cd87",
+    "secondaryColor": "#214d4a",
+    "backgroundColor": "#ffffff",
+    "textColor": "#111827",
+    "fontFamily": "'Plus Jakarta Sans', system-ui, sans-serif",
+    "googleFont": "",
+    "googleFontWeights": [],
+    "header": "components/Header.vue",
+    "footer": "components/Footer.vue"
+  },
+  "social": [],
+  "deployment": {
+    "type": "git",
+    "custom": false,
+    "local": {
+      "outputPath": "sites/greemo-website/dist"
+    },
+    "git": {
+      "enabled": true,
+      "repoUrl": "https://github.com/sourcetown/greemo-site-greemo-website.git",
+      "branch": "main",
+      "buildBranch": "gh-pages",
+      "remote": "origin",
+      "autoCommit": false,
+      "commitMessage": "Update {{filename}}"
+    },
+    "s3": {
+      "bucket": "greemo-greemo-website",
+      "region": "eu-west-2",
+      "accessKeyId": "",
+      "secretAccessKey": ""
+    },
+    "ssh": {
+      "host": "",
+      "username": "",
+      "port": 22,
+      "privateKey": "",
+      "password": "",
+      "remotePath": ""
+    },
+    "cloudflare": {
+      "hostname": ""
+    },
+    "dataApi": {
+      "publicBase": ""
+    }
+  },
+  "media": {
+    "storage": "s3"
+  },
+  "variables": [],
+  "devServerPort": 7244,
+  "forms": {
+    "enabled": true
+  }
+}

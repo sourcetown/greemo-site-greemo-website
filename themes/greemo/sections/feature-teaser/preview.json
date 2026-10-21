@@ -1,0 +1,54 @@
+{
+  "eyebrow": "And a full visual builder underneath",
+  "title": "Markdown content, visual editing, any framework",
+  "cta": {
+    "label": "See all features",
+    "path": "/features"
+  },
+  "cards": [
+    {
+      "title": "Bring any website in",
+      "text": "Move an existing site into Greemo with the help of AI, then review and edit it visually.",
+      "path": "/features#key",
+      "visual": "ui-import",
+      "wide": true
+    },
+    {
+      "title": "Visual layout editor",
+      "text": "Drag-and-drop interface with real-time preview and a component properties panel.",
+      "path": "/features#layout",
+      "visual": "ui-layout"
+    },
+    {
+      "title": "Block editor",
+      "text": "Renders live Vue section components, with a slash menu and schema-driven settings.",
+      "path": "/features#blocks",
+      "visual": "ui-blocks"
+    },
+    {
+      "title": "Markdown content editing",
+      "text": "Markdown-based content editing with comment tag parsing.",
+      "path": "/features#markdown",
+      "visual": "ui-markdown"
+    },
+    {
+      "title": "Framework-agnostic templates",
+      "text": "Vue, React and Svelte, with Tailwind 4 styling integration.",
+      "path": "/features#templates",
+      "visual": "shot:real-settings-framework.webp",
+      "alt": "Greemo settings, framework choice"
+    },
+    {
+      "title": "Multi-site management",
+      "text": "Switch between sites from a local `sites/<slug>/` workspace.",
+      "path": "/features#sites",
+      "visual": "ui-sites"
+    },
+    {
+      "title": "Export to Vue + Vite",
+      "text": "A complete Vue 3 + Vite + Tailwind v4 project, with round-trip support.",
+      "path": "/features#export",
+      "code": "greemo export \\\n  --site ./sites/demo \\\n  --output ./exported-demo"
+    }
+  ]
+}

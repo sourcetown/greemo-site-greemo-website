@@ -1,0 +1,79 @@
+{
+  "kind": "list",
+  "source": {
+    "type": "json",
+    "path": "data/cliCommands.json"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "key",
+        "label": "Key",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "area",
+        "label": "Area",
+        "type": "textfield"
+      },
+      {
+        "name": "commands",
+        "label": "Commands",
+        "type": "repeater",
+        "fields": [
+          {
+            "name": "value",
+            "label": "Command",
+            "type": "textfield"
+          }
+        ]
+      }
+    ],
+    "list": {
+      "columns": [
+        "area"
+      ],
+      "pagination": {
+        "pageSize": 20
+      }
+    }
+  },
+  "description": "`greemo ai` commands by area (docs/AI_TOOLS.md)",
+  "type": "static",
+  "formSchema": {
+    "fields": [
+      {
+        "name": "key",
+        "label": "Key",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "area",
+        "label": "Area",
+        "type": "textfield"
+      },
+      {
+        "name": "commands",
+        "label": "Commands",
+        "type": "repeater",
+        "fields": [
+          {
+            "name": "value",
+            "label": "Command",
+            "type": "textfield"
+          }
+        ]
+      }
+    ],
+    "list": {
+      "columns": [
+        "area"
+      ],
+      "pagination": {
+        "pageSize": 20
+      }
+    }
+  }
+}

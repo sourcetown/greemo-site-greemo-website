@@ -1,0 +1,13 @@
+{
+  "name": "Greemo",
+  "aka": "Greenmo",
+  "logo": "/media/greemo-logo@2x.webp",
+  "mark": "/media/greemo-mark.svg",
+  "strapline": "A lightweight visual website builder that allows editing content as markdown with comment tags for template parsing.",
+  "maker": "A SourceTown product",
+  "contactEmail": "[PLACEHOLDER: contact email]",
+  "responseTime": "[PLACEHOLDER: response time]",
+  "formDestination": "[PLACEHOLDER: destination email address for the contact form]",
+  "formAction": "",
+  "showSourceNotes": true
+}

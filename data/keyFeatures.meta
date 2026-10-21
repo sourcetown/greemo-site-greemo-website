@@ -1,0 +1,215 @@
+{
+  "kind": "list",
+  "source": {
+    "type": "json",
+    "path": "data/keyFeatures.json"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "key",
+        "label": "Key",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "order",
+        "label": "Order",
+        "type": "number"
+      },
+      {
+        "name": "title",
+        "label": "Headline",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "text",
+        "label": "Copy",
+        "type": "textarea"
+      },
+      {
+        "name": "ticks",
+        "label": "Bullet points",
+        "type": "repeater",
+        "fields": [
+          {
+            "name": "value",
+            "label": "Bullet",
+            "type": "textfield"
+          }
+        ]
+      },
+      {
+        "name": "visual",
+        "label": "Visual",
+        "type": "select",
+        "options": [
+          "ui-import",
+          "ui-layout",
+          "ui-blocks",
+          "ui-markdown",
+          "ui-ai",
+          "ui-ai-compact",
+          "ui-sites",
+          "sites-combo",
+          "vis-import",
+          "vis-perf",
+          "vis-data",
+          "vis-local",
+          "shot:real-settings-framework.webp",
+          "shot:real-blocks-library.webp",
+          "shot:real-dashboard-choose-project.webp"
+        ],
+        "description": "Interface graphic: a recreation component (ui-*/vis-*) or a real screenshot (shot:<file in /media/shots>)"
+      },
+      {
+        "name": "visualUrl",
+        "label": "Address bar text",
+        "type": "textfield",
+        "description": "Shown in the browser frame around the graphic"
+      },
+      {
+        "name": "visualKind",
+        "label": "Graphic label",
+        "type": "select",
+        "options": [
+          "real",
+          "recreation",
+          "both",
+          "none"
+        ]
+      },
+      {
+        "name": "source",
+        "label": "Source note",
+        "type": "textfield"
+      },
+      {
+        "name": "backing",
+        "label": "How the repo backs it",
+        "type": "select",
+        "options": [
+          "full",
+          "partial",
+          "general",
+          "concept"
+        ]
+      }
+    ],
+    "list": {
+      "columns": [
+        "title",
+        "backing"
+      ],
+      "pagination": {
+        "pageSize": 20
+      }
+    }
+  },
+  "description": "The five key features (home and top of Features)",
+  "type": "static",
+  "formSchema": {
+    "fields": [
+      {
+        "name": "key",
+        "label": "Key",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "order",
+        "label": "Order",
+        "type": "number"
+      },
+      {
+        "name": "title",
+        "label": "Headline",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "text",
+        "label": "Copy",
+        "type": "textarea"
+      },
+      {
+        "name": "ticks",
+        "label": "Bullet points",
+        "type": "repeater",
+        "fields": [
+          {
+            "name": "value",
+            "label": "Bullet",
+            "type": "textfield"
+          }
+        ]
+      },
+      {
+        "name": "visual",
+        "label": "Visual",
+        "type": "select",
+        "options": [
+          "ui-import",
+          "ui-layout",
+          "ui-blocks",
+          "ui-markdown",
+          "ui-ai",
+          "ui-ai-compact",
+          "ui-sites",
+          "sites-combo",
+          "vis-import",
+          "vis-perf",
+          "vis-data",
+          "vis-local",
+          "shot:real-settings-framework.webp",
+          "shot:real-blocks-library.webp",
+          "shot:real-dashboard-choose-project.webp"
+        ],
+        "description": "Interface graphic: a recreation component (ui-*/vis-*) or a real screenshot (shot:<file in /media/shots>)"
+      },
+      {
+        "name": "visualUrl",
+        "label": "Address bar text",
+        "type": "textfield",
+        "description": "Shown in the browser frame around the graphic"
+      },
+      {
+        "name": "visualKind",
+        "label": "Graphic label",
+        "type": "select",
+        "options": [
+          "real",
+          "recreation",
+          "both",
+          "none"
+        ]
+      },
+      {
+        "name": "source",
+        "label": "Source note",
+        "type": "textfield"
+      },
+      {
+        "name": "backing",
+        "label": "How the repo backs it",
+        "type": "select",
+        "options": [
+          "full",
+          "partial",
+          "general",
+          "concept"
+        ]
+      }
+    ],
+    "list": {
+      "columns": [
+        "title",
+        "backing"
+      ],
+      "pagination": {
+        "pageSize": 20
+      }
+    }
+  }
+}

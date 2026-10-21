@@ -1,0 +1,54 @@
+{
+  "name": "code-cards",
+  "displayName": "Code cards",
+  "description": "Cards each holding a short code sample.",
+  "component": "CodeCardsSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "source",
+      "type": "string",
+      "label": "Source note",
+      "description": "Repo file that backs the claim, shown when Company has source notes switched on",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "cards",
+      "type": "array",
+      "label": "Cards",
+      "description": "Each item uses these fields. Add one to create another.",
+      "required": false,
+      "fields": [
+        {
+          "name": "icon",
+          "type": "string",
+          "label": "Icon"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "label": "Title"
+        },
+        {
+          "name": "text",
+          "type": "long",
+          "label": "Text"
+        },
+        {
+          "name": "code",
+          "type": "long",
+          "label": "Code"
+        }
+      ]
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

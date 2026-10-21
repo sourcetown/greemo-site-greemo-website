@@ -1,0 +1,113 @@
+{
+  "kind": "singleton",
+  "source": {
+    "type": "json",
+    "path": "data/menu.json"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "menus",
+        "label": "Menus",
+        "type": "repeater",
+        "fields": [
+          {
+            "name": "id",
+            "label": "Menu ID",
+            "type": "textfield",
+            "required": true
+          },
+          {
+            "name": "name",
+            "label": "Menu Name",
+            "type": "textfield",
+            "required": true
+          },
+          {
+            "name": "location",
+            "label": "Location",
+            "type": "textfield"
+          },
+          {
+            "name": "items",
+            "label": "Menu Items",
+            "type": "repeater",
+            "fields": [
+              {
+                "name": "label",
+                "label": "Label",
+                "type": "textfield",
+                "required": true
+              },
+              {
+                "name": "path",
+                "label": "Path",
+                "type": "textfield"
+              },
+              {
+                "name": "external",
+                "label": "External",
+                "type": "checkbox"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "preset": "menus"
+  },
+  "description": "Navigation menus",
+  "type": "static",
+  "formSchema": {
+    "fields": [
+      {
+        "name": "menus",
+        "label": "Menus",
+        "type": "repeater",
+        "fields": [
+          {
+            "name": "id",
+            "label": "Menu ID",
+            "type": "textfield",
+            "required": true
+          },
+          {
+            "name": "name",
+            "label": "Menu Name",
+            "type": "textfield",
+            "required": true
+          },
+          {
+            "name": "location",
+            "label": "Location",
+            "type": "textfield"
+          },
+          {
+            "name": "items",
+            "label": "Menu Items",
+            "type": "repeater",
+            "fields": [
+              {
+                "name": "label",
+                "label": "Label",
+                "type": "textfield",
+                "required": true
+              },
+              {
+                "name": "path",
+                "label": "Path",
+                "type": "textfield"
+              },
+              {
+                "name": "external",
+                "label": "External",
+                "type": "checkbox"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "preset": "menus"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "name": "hero",
+  "displayName": "Hero",
+  "description": "Home opening band: pill, heading with accent words, lead, buttons and an interface visual with optional terminal.",
+  "component": "HeroSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "pill",
+      "type": "string",
+      "label": "Pill",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Heading",
+      "description": "Main heading. Wrap words in *stars* to accent them where supported",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "lead",
+      "type": "long",
+      "label": "Lead",
+      "description": "Intro paragraph",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "ctas",
+      "type": "array",
+      "label": "Ctas",
+      "description": "Each item uses these fields. Add one to create another.",
+      "required": false,
+      "fields": [
+        {
+          "name": "label",
+          "type": "string",
+          "label": "Label"
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "label": "Path"
+        }
+      ]
+    },
+    {
+      "name": "visual",
+      "type": "string",
+      "label": "Visual",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "visualUrl",
+      "type": "string",
+      "label": "Visual Url",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "terminal",
+      "type": "string",
+      "label": "Terminal",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

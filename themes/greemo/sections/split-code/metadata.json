@@ -1,0 +1,96 @@
+{
+  "name": "split-code",
+  "displayName": "Split code",
+  "description": "Text beside a code sample.",
+  "component": "SplitCodeSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "align",
+      "type": "string",
+      "label": "Align",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "eyebrow",
+      "type": "string",
+      "label": "Eyebrow",
+      "description": "Small label above the heading",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Heading",
+      "description": "Main heading. Wrap words in *stars* to accent them where supported",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "text",
+      "type": "long",
+      "label": "Text",
+      "description": "Body or call to action text",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "ticks",
+      "type": "array",
+      "label": "Ticks",
+      "description": "",
+      "required": false
+    },
+    {
+      "name": "aside",
+      "type": "string",
+      "label": "Aside",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "anchor",
+      "type": "string",
+      "label": "Anchor",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "source",
+      "type": "string",
+      "label": "Source note",
+      "description": "Repo file that backs the claim, shown when Company has source notes switched on",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "tint",
+      "type": "string",
+      "label": "Tint",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "code",
+      "type": "string",
+      "label": "Code",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

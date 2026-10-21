@@ -1,0 +1,8 @@
+{
+  "name": "greemo",
+  "description": "Theme imported from ~/Projects/sourcetown/website-greemo (branch greemo, commit a19f2db) via greemo import and theme install, sections moved into block folders",
+  "engine": "site",
+  "header": "components/Header.vue",
+  "footer": "components/Footer.vue",
+  "style": "theme.css"
+}

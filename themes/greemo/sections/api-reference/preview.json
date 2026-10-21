@@ -1,0 +1,12 @@
+{
+  "__dataset__": "endpoints",
+  "eyebrow": "HTTP API",
+  "title": "A REST API on localhost:3300",
+  "intro": "Start the API server with `greemo api-server --port 3300`. All responses are JSON and successful responses have `\"success\": true`.",
+  "note": "Status codes: 200 Success, 404 Not found, 500 Server error, 503 AI not configured. The JSON schema and tool manifest live in `docs/ai-tools-schema.json`.",
+  "source": "Source: docs/AI_TOOLS.md (HTTP API, Examples 2 and 3)",
+  "examples": [
+    "# Start API server\ngreemo api-server &\n\n# Create site\ncurl -X POST http://localhost:3300/api/sites \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"name\":\"shop\",\"title\":\"My Shop\"}'\n\n# List pages\ncurl \"http://localhost:3300/api/pages?sitePath=./sites/shop\"",
+    "const API_BASE = 'http://localhost:3300/api';\n\n// Create a site\nconst createResponse = await fetch(`${API_BASE}/sites`, {\n  method: 'POST',\n  headers: { 'Content-Type': 'application/json' },\n  body: JSON.stringify({\n    name: 'portfolio',\n    title: 'My Portfolio',\n    description: 'My professional portfolio'\n  })\n});"
+  ]
+}

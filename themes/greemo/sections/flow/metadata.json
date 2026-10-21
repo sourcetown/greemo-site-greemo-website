@@ -1,0 +1,60 @@
+{
+  "name": "flow",
+  "displayName": "Flow",
+  "description": "Step by step flow diagram.",
+  "component": "FlowSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "eyebrow",
+      "type": "string",
+      "label": "Eyebrow",
+      "description": "Small label above the heading",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Heading",
+      "description": "Main heading. Wrap words in *stars* to accent them where supported",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "source",
+      "type": "string",
+      "label": "Source note",
+      "description": "Repo file that backs the claim, shown when Company has source notes switched on",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "steps",
+      "type": "array",
+      "label": "Steps",
+      "description": "Each item uses these fields. Add one to create another.",
+      "required": false,
+      "fields": [
+        {
+          "name": "title",
+          "type": "string",
+          "label": "Title"
+        },
+        {
+          "name": "text",
+          "type": "long",
+          "label": "Text"
+        }
+      ]
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

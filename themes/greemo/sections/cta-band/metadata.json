@@ -1,0 +1,60 @@
+{
+  "name": "cta-band",
+  "displayName": "CTA band",
+  "description": "Dark call to action band with text and buttons.",
+  "component": "CtaBandSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Heading",
+      "description": "Main heading. Wrap words in *stars* to accent them where supported",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "text",
+      "type": "long",
+      "label": "Text",
+      "description": "Body or call to action text",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "ctas",
+      "type": "array",
+      "label": "Ctas",
+      "description": "Each item uses these fields. Add one to create another.",
+      "required": false,
+      "fields": [
+        {
+          "name": "label",
+          "type": "string",
+          "label": "Label"
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "label": "Path"
+        }
+      ]
+    },
+    {
+      "name": "code",
+      "type": "string",
+      "label": "Code",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

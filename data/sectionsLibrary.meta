@@ -1,0 +1,55 @@
+{
+  "kind": "list",
+  "source": {
+    "type": "json",
+    "path": "data/sectionsLibrary.json"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "key",
+        "label": "Key",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "name",
+        "label": "Section name",
+        "type": "textfield"
+      }
+    ],
+    "list": {
+      "columns": [
+        "name"
+      ],
+      "pagination": {
+        "pageSize": 20
+      }
+    }
+  },
+  "description": "Sections in packages/sections/sections/",
+  "type": "static",
+  "formSchema": {
+    "fields": [
+      {
+        "name": "key",
+        "label": "Key",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "name",
+        "label": "Section name",
+        "type": "textfield"
+      }
+    ],
+    "list": {
+      "columns": [
+        "name"
+      ],
+      "pagination": {
+        "pageSize": 20
+      }
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "folders": [
+    "fonts",
+    "shots",
+    "favicons"
+  ],
+  "tags": [],
+  "items": [
+    {
+      "id": "1ccccd97-990c-4821-830b-dbf51ff79723",
+      "uploadedAt": "2026-10-19T23:30:50.417Z",
+      "name": "Inter-400-700.woff2",
+      "folder": "fonts",
+      "tags": [],
+      "collections": [],
+      "mime": "application/octet-stream",
+      "url": "/media/fonts/Inter-400-700.woff2",
+      "localPath": "sites/greemo-website/media/fonts/Inter-400-700.woff2",
+      "storage": "local"
+    },
+    {
+      "id": "b8e2815f-c19e-4ce5-b7b6-9882f1c094d9",
+      "uploadedAt": "2026-10-19T23:30:50.417Z",
+      "name": "JetBrainsMono-400.woff2",
+      "folder": "fonts",
+      "tags": [],
+      "collections": [],
+      "mime": "application/octet-stream",
+      "url": "/media/fonts/JetBrainsMono-400.woff2",
+      "localPath": "sites/greemo-website/media/fonts/JetBrainsMono-400.woff2",
+      "storage": "local"
+    },
+    {
+      "id": "c69f9dec-50e5-4e7a-b144-756809a5823d",
+      "uploadedAt": "2026-10-19T23:30:50.417Z",
+      "name": "PlusJakartaSans-400-800.woff2",
+      "folder": "fonts",
+      "tags": [],
+      "collections": [],
+      "mime": "application/octet-stream",
+      "url": "/media/fonts/PlusJakartaSans-400-800.woff2",
+      "localPath": "sites/greemo-website/media/fonts/PlusJakartaSans-400-800.woff2",
+      "storage": "local"
+    },
+    {
+      "id": "99bd0a0e-6460-4915-a2f0-5ee2c779b17d",
+      "uploadedAt": "2026-10-19T23:30:50.421Z",
+      "name": "real-blocks-library.webp",
+      "folder": "shots",
+      "tags": [],
+      "collections": [],
+      "mime": "image/webp",
+      "url": "/media/shots/real-blocks-library.webp",
+      "localPath": "sites/greemo-website/media/shots/real-blocks-library.webp",
+      "storage": "local"
+    },
+    {
+      "id": "24cfbb00-e758-4ed7-b124-ef2b26986bd1",
+      "uploadedAt": "2026-10-19T23:30:50.421Z",
+      "name": "real-dashboard-choose-project.webp",
+      "folder": "shots",
+      "tags": [],
+      "collections": [],
+      "mime": "image/webp",
+      "url": "/media/shots/real-dashboard-choose-project.webp",
+      "localPath": "sites/greemo-website/media/shots/real-dashboard-choose-project.webp",
+      "storage": "local"
+    },
+    {
+      "id": "5f9e4902-c027-496b-b69a-f45a5e7f4d14",
+      "uploadedAt": "2026-10-19T23:30:50.421Z",
+      "name": "real-settings-framework.webp",
+      "folder": "shots",
+      "tags": [],
+      "collections": [],
+      "mime": "image/webp",
+      "url": "/media/shots/real-settings-framework.webp",
+      "localPath": "sites/greemo-website/media/shots/real-settings-framework.webp",
+      "storage": "local"
+    },
+    {
+      "id": "e0ec9b9c-87b1-426f-89f5-7830da482008",
+      "uploadedAt": "2026-10-19T23:30:50.421Z",
+      "name": "greemo-logo@2x.png",
+      "folder": "",
+      "tags": [],
+      "collections": [],
+      "mime": "image/png",
+      "url": "/media/greemo-logo@2x.png",
+      "localPath": "sites/greemo-website/media/greemo-logo@2x.png",
+      "storage": "local"
+    },
+    {
+      "id": "1e6dfa7c-3355-4c27-a4f7-c366aca2474a",
+      "uploadedAt": "2026-10-19T23:30:50.421Z",
+      "name": "greemo-logo@2x.webp",
+      "folder": "",
+      "tags": [],
+      "collections": [],
+      "mime": "image/webp",
+      "url": "/media/greemo-logo@2x.webp",
+      "localPath": "sites/greemo-website/media/greemo-logo@2x.webp",
+      "storage": "local"
+    },
+    {
+      "id": "d957c858-9111-45d4-ba4c-571d150e4075",
+      "uploadedAt": "2026-10-19T23:30:50.421Z",
+      "name": "favicon.png",
+      "folder": "",
+      "tags": [],
+      "collections": [],
+      "mime": "image/png",
+      "url": "/media/favicon.png",
+      "localPath": "sites/greemo-website/media/favicon.png",
+      "storage": "local"
+    },
+    {
+      "id": "e506157b-326c-453a-b4dc-0f047a74832f",
+      "uploadedAt": "2026-10-19T23:30:50.421Z",
+      "name": "greemo-mark.svg",
+      "folder": "",
+      "tags": [],
+      "collections": [],
+      "mime": "image/svg+xml",
+      "url": "/media/greemo-mark.svg",
+      "localPath": "sites/greemo-website/media/greemo-mark.svg",
+      "storage": "local"
+    },
+    {
+      "id": "909164d4-220f-4041-a564-3c3b093bb577",
+      "uploadedAt": "2026-10-20T12:21:00.000Z",
+      "name": "favicon-16x16.png",
+      "folder": "favicons",
+      "tags": [],
+      "collections": [],
+      "mime": "image/png",
+      "url": "/media/favicons/favicon-16x16.png",
+      "localPath": "sites/greemo-website/media/favicons/favicon-16x16.png",
+      "storage": "local"
+    },
+    {
+      "id": "63aa48cd-d2df-4937-a2bf-e9d48d12b1e1",
+      "uploadedAt": "2026-10-20T12:21:00.000Z",
+      "name": "favicon-32x32.png",
+      "folder": "favicons",
+      "tags": [],
+      "collections": [],
+      "mime": "image/png",
+      "url": "/media/favicons/favicon-32x32.png",
+      "localPath": "sites/greemo-website/media/favicons/favicon-32x32.png",
+      "storage": "local"
+    },
+    {
+      "id": "0d229de0-2c80-4976-bd38-c1ae97dc1fe6",
+      "uploadedAt": "2026-10-20T12:21:00.000Z",
+      "name": "apple-touch-icon.png",
+      "folder": "favicons",
+      "tags": [],
+      "collections": [],
+      "mime": "image/png",
+      "url": "/media/favicons/apple-touch-icon.png",
+      "localPath": "sites/greemo-website/media/favicons/apple-touch-icon.png",
+      "storage": "local"
+    },
+    {
+      "id": "f3c21d64-e9a3-47fa-97d6-add51d4129b4",
+      "uploadedAt": "2026-10-20T12:21:00.000Z",
+      "name": "android-chrome-192x192.png",
+      "folder": "favicons",
+      "tags": [],
+      "collections": [],
+      "mime": "image/png",
+      "url": "/media/favicons/android-chrome-192x192.png",
+      "localPath": "sites/greemo-website/media/favicons/android-chrome-192x192.png",
+      "storage": "local"
+    },
+    {
+      "id": "4f50cbcf-07a4-49a7-b534-dc222d87ca6b",
+      "uploadedAt": "2026-10-20T12:21:00.000Z",
+      "name": "android-chrome-512x512.png",
+      "folder": "favicons",
+      "tags": [],
+      "collections": [],
+      "mime": "image/png",
+      "url": "/media/favicons/android-chrome-512x512.png",
+      "localPath": "sites/greemo-website/media/favicons/android-chrome-512x512.png",
+      "storage": "local"
+    },
+    {
+      "id": "a114747d-6ae7-41ce-9498-a0bd0d458f63",
+      "uploadedAt": "2026-10-20T12:21:00.000Z",
+      "name": "favicon.svg",
+      "folder": "favicons",
+      "tags": [],
+      "collections": [],
+      "mime": "image/svg+xml",
+      "url": "/media/favicons/favicon.svg",
+      "localPath": "sites/greemo-website/media/favicons/favicon.svg",
+      "storage": "local"
+    }
+  ]
+}

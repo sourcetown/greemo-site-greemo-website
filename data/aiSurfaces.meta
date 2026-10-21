@@ -1,0 +1,123 @@
+{
+  "kind": "list",
+  "source": {
+    "type": "json",
+    "path": "data/aiSurfaces.json"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "key",
+        "label": "Key",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "icon",
+        "label": "Icon",
+        "type": "select",
+        "options": [
+          "sparkles",
+          "term",
+          "api"
+        ]
+      },
+      {
+        "name": "title",
+        "label": "Title",
+        "type": "textfield"
+      },
+      {
+        "name": "tag",
+        "label": "Tag line",
+        "type": "textfield"
+      },
+      {
+        "name": "text",
+        "label": "Copy",
+        "type": "textarea"
+      },
+      {
+        "name": "exampleKind",
+        "label": "Example type",
+        "type": "select",
+        "options": [
+          "prompt",
+          "code"
+        ]
+      },
+      {
+        "name": "example",
+        "label": "Example",
+        "type": "textarea"
+      }
+    ],
+    "list": {
+      "columns": [
+        "title"
+      ],
+      "pagination": {
+        "pageSize": 20
+      }
+    }
+  },
+  "description": "The three AI surfaces",
+  "type": "static",
+  "formSchema": {
+    "fields": [
+      {
+        "name": "key",
+        "label": "Key",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "icon",
+        "label": "Icon",
+        "type": "select",
+        "options": [
+          "sparkles",
+          "term",
+          "api"
+        ]
+      },
+      {
+        "name": "title",
+        "label": "Title",
+        "type": "textfield"
+      },
+      {
+        "name": "tag",
+        "label": "Tag line",
+        "type": "textfield"
+      },
+      {
+        "name": "text",
+        "label": "Copy",
+        "type": "textarea"
+      },
+      {
+        "name": "exampleKind",
+        "label": "Example type",
+        "type": "select",
+        "options": [
+          "prompt",
+          "code"
+        ]
+      },
+      {
+        "name": "example",
+        "label": "Example",
+        "type": "textarea"
+      }
+    ],
+    "list": {
+      "columns": [
+        "title"
+      ],
+      "pagination": {
+        "pageSize": 20
+      }
+    }
+  }
+}

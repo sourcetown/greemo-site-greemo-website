@@ -1,0 +1,113 @@
+{
+  "name": "contact",
+  "displayName": "Contact",
+  "description": "Contact details and form; the endpoint comes from the company collection.",
+  "component": "ContactSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "eyebrow",
+      "type": "string",
+      "label": "Eyebrow",
+      "description": "Small label above the heading",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Heading",
+      "description": "Main heading. Wrap words in *stars* to accent them where supported",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "intro",
+      "type": "string",
+      "label": "Intro",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "contactEmail",
+      "type": "string",
+      "label": "Contact Email",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "responseTime",
+      "type": "string",
+      "label": "Response Time",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "formAction",
+      "type": "string",
+      "label": "Form Action",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "formDestination",
+      "type": "string",
+      "label": "Form Destination",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "label": "Name",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "email",
+      "type": "string",
+      "label": "Email",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "company",
+      "type": "string",
+      "label": "Company",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "message",
+      "type": "string",
+      "label": "Message",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "sendMessage",
+      "type": "string",
+      "label": "Send message",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

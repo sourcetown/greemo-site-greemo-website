@@ -1,0 +1,12 @@
+{
+  "align": "center",
+  "eyebrow": "Configuration",
+  "title": "Bring your own AI provider",
+  "text": "Copy `.env.example` to `.env` and add your API keys. OpenAI and Anthropic are supported. API keys are never sent to the browser bundle and all AI calls route through local server endpoints.",
+  "ticks": [
+    "If AI is not configured, CLI commands return descriptive error messages in JSON format",
+    "The HTTP API returns 503 Service Unavailable",
+    "The in-editor AI assistant displays a configuration message"
+  ],
+  "aside": "# AI Provider (openai or anthropic)\nGREEMO_AI_PROVIDER=openai\n\n# OpenAI Configuration\nOPENAI_API_KEY=your_openai_api_key_here\nOPENAI_MODEL=gpt-4\n\n# Anthropic Configuration\nANTHROPIC_API_KEY=your_anthropic_api_key_here\n\n# Optional: API Server Port\nGREEMO_API_PORT=3300"
+}

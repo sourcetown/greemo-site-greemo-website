@@ -1,0 +1,16 @@
+---
+title: "Greemo | Build and run every site from one visual editor"
+description: "Greemo is a lightweight visual website builder with markdown content, framework-agnostic templates and AI-facing tools for site generation and management."
+kind: "home"
+themeLayout: home
+---
+
+<!-- template name="hero" {"pill": "Visual website builder", "title": "Build and run every site from one *visual editor*", "lead": "AI helps you get content in. Greemo does the rest.", "ctas": [{"label": "Get started", "path": "/get-started"}, {"label": "See all features", "path": "/features"}], "visual": "ui-ai-compact", "visualUrl": "localhost:2211/editor/andrewsuk", "terminal": true} -->
+
+<!-- template name="key-features" {"__dataset__": "keyFeatures", "eyebrow": "Features", "title": "Five reasons to move your site to Greemo"} -->
+
+<!-- template name="ai-surfaces" {"__dataset__": "aiSurfaces", "eyebrow": "What makes Greemo different", "title": "Three ways for AI to work with your sites", "intro": "The same site operations are available from the editor, the terminal and over HTTP, so people and AI agents can create sites, pages, settings and collections side by side.", "link": {"label": "See every AI command and endpoint", "path": "/ai-tools"}} -->
+
+<!-- template name="feature-teaser" {"eyebrow": "And a full visual builder underneath", "title": "Markdown content, visual editing, any framework", "cta": {"label": "See all features", "path": "/features"}, "cards": [{"title": "Bring any website in", "text": "Move an existing site into Greemo with the help of AI, then review and edit it visually.", "path": "/features#key", "visual": "ui-import", "wide": true}, {"title": "Visual layout editor", "text": "Drag-and-drop interface with real-time preview and a component properties panel.", "path": "/features#layout", "visual": "ui-layout"}, {"title": "Block editor", "text": "Renders live Vue section components, with a slash menu and schema-driven settings.", "path": "/features#blocks", "visual": "ui-blocks"}, {"title": "Markdown content editing", "text": "Markdown-based content editing with comment tag parsing.", "path": "/features#markdown", "visual": "ui-markdown"}, {"title": "Framework-agnostic templates", "text": "Vue, React and Svelte, with Tailwind 4 styling integration.", "path": "/features#templates", "visual": "shot:real-settings-framework.webp", "alt": "Greemo settings, framework choice"}, {"title": "Multi-site management", "text": "Switch between sites from a local `sites/\u003cslug\u003e/` workspace.", "path": "/features#sites", "visual": "ui-sites"}, {"title": "Export to Vue + Vite", "text": "A complete Vue 3 + Vite + Tailwind v4 project, with round-trip support.", "path": "/features#export", "code": "greemo export \\\n  --site ./sites/demo \\\n  --output ./exported-demo"}]} -->
+
+<!-- template name="cta-band" {"title": "Start building with Greemo", "text": "Install the dependencies and start the development server. The Greemo web application runs at `http://localhost:2211`.", "ctas": [{"label": "Get started", "path": "/get-started"}, {"label": "View plans", "path": "/pricing"}], "code": "# Install dependencies\nnpm install\n\n# Start development server\nnpm run dev\n\n# Build all packages\nnpm run build"} -->

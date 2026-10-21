@@ -1,0 +1,131 @@
+{
+  "kind": "singleton",
+  "source": {
+    "type": "json",
+    "path": "data/company.json"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "name",
+        "label": "Product name",
+        "type": "textfield"
+      },
+      {
+        "name": "aka",
+        "label": "Also known as",
+        "type": "textfield"
+      },
+      {
+        "name": "logo",
+        "label": "Logo",
+        "type": "image"
+      },
+      {
+        "name": "mark",
+        "label": "Brand mark",
+        "type": "image"
+      },
+      {
+        "name": "strapline",
+        "label": "Strapline",
+        "type": "textarea"
+      },
+      {
+        "name": "maker",
+        "label": "Maker line",
+        "type": "textfield"
+      },
+      {
+        "name": "contactEmail",
+        "label": "Contact email",
+        "type": "textfield"
+      },
+      {
+        "name": "responseTime",
+        "label": "Response time",
+        "type": "textfield"
+      },
+      {
+        "name": "formDestination",
+        "label": "Form destination",
+        "type": "textfield"
+      },
+      {
+        "name": "formAction",
+        "label": "Form endpoint",
+        "type": "textfield",
+        "description": "POST endpoint for the contact form. Empty: the form shows a not-connected message."
+      },
+      {
+        "name": "showSourceNotes",
+        "label": "Show source notes",
+        "type": "checkbox",
+        "description": "Show the small notes naming the greemo repo file that backs each claim"
+      }
+    ]
+  },
+  "description": "Product name, logo, strapline and contact details",
+  "type": "static",
+  "formSchema": {
+    "fields": [
+      {
+        "name": "name",
+        "label": "Product name",
+        "type": "textfield"
+      },
+      {
+        "name": "aka",
+        "label": "Also known as",
+        "type": "textfield"
+      },
+      {
+        "name": "logo",
+        "label": "Logo",
+        "type": "image"
+      },
+      {
+        "name": "mark",
+        "label": "Brand mark",
+        "type": "image"
+      },
+      {
+        "name": "strapline",
+        "label": "Strapline",
+        "type": "textarea"
+      },
+      {
+        "name": "maker",
+        "label": "Maker line",
+        "type": "textfield"
+      },
+      {
+        "name": "contactEmail",
+        "label": "Contact email",
+        "type": "textfield"
+      },
+      {
+        "name": "responseTime",
+        "label": "Response time",
+        "type": "textfield"
+      },
+      {
+        "name": "formDestination",
+        "label": "Form destination",
+        "type": "textfield"
+      },
+      {
+        "name": "formAction",
+        "label": "Form endpoint",
+        "type": "textfield",
+        "description": "POST endpoint for the contact form. Empty: the form shows a not-connected message."
+      },
+      {
+        "name": "showSourceNotes",
+        "label": "Show source notes",
+        "type": "checkbox",
+        "description": "Show the small notes naming the greemo repo file that backs each claim"
+      }
+    ]
+  }
+}

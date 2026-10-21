@@ -1,0 +1,141 @@
+{
+  "kind": "list",
+  "source": {
+    "type": "json",
+    "path": "data/plans.json"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "key",
+        "label": "Key",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "name",
+        "label": "Tier name",
+        "type": "textfield"
+      },
+      {
+        "name": "price",
+        "label": "Price",
+        "type": "textfield"
+      },
+      {
+        "name": "period",
+        "label": "Period",
+        "type": "textfield"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "features",
+        "label": "Feature lines",
+        "type": "repeater",
+        "fields": [
+          {
+            "name": "value",
+            "label": "Feature line",
+            "type": "textfield"
+          }
+        ]
+      },
+      {
+        "name": "cta",
+        "label": "Button label",
+        "type": "textfield"
+      },
+      {
+        "name": "ctaPath",
+        "label": "Button link",
+        "type": "textfield"
+      },
+      {
+        "name": "popular",
+        "label": "Most popular",
+        "type": "checkbox"
+      }
+    ],
+    "list": {
+      "columns": [
+        "name",
+        "price"
+      ],
+      "pagination": {
+        "pageSize": 20
+      }
+    }
+  },
+  "description": "Pricing tiers. Every value is a placeholder until plans are decided.",
+  "type": "static",
+  "formSchema": {
+    "fields": [
+      {
+        "name": "key",
+        "label": "Key",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "name",
+        "label": "Tier name",
+        "type": "textfield"
+      },
+      {
+        "name": "price",
+        "label": "Price",
+        "type": "textfield"
+      },
+      {
+        "name": "period",
+        "label": "Period",
+        "type": "textfield"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "features",
+        "label": "Feature lines",
+        "type": "repeater",
+        "fields": [
+          {
+            "name": "value",
+            "label": "Feature line",
+            "type": "textfield"
+          }
+        ]
+      },
+      {
+        "name": "cta",
+        "label": "Button label",
+        "type": "textfield"
+      },
+      {
+        "name": "ctaPath",
+        "label": "Button link",
+        "type": "textfield"
+      },
+      {
+        "name": "popular",
+        "label": "Most popular",
+        "type": "checkbox"
+      }
+    ],
+    "list": {
+      "columns": [
+        "name",
+        "price"
+      ],
+      "pagination": {
+        "pageSize": 20
+      }
+    }
+  }
+}

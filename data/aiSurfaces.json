@@ -1,0 +1,29 @@
+[
+  {
+    "key": "assistant",
+    "icon": "sparkles",
+    "title": "In-editor AI assistant",
+    "tag": "Natural language site editing",
+    "text": "Type a request, review the suggested changes, then apply or reject each one. Changes reflect immediately in preview.",
+    "exampleKind": "prompt",
+    "example": "\"Add a new page called 'Services'\""
+  },
+  {
+    "key": "cli",
+    "icon": "term",
+    "title": "CLI JSON commands",
+    "tag": "greemo ai …",
+    "text": "JSON-output commands for site, page and collection CRUD, built for terminals, scripts and agents.",
+    "exampleKind": "code",
+    "example": "greemo ai add-page --site-path ./sites/blog --page about --content \"# About\""
+  },
+  {
+    "key": "api",
+    "icon": "api",
+    "title": "HTTP API",
+    "tag": "REST on localhost:3300",
+    "text": "A REST API for programmatic access. All responses are JSON, and successful responses have `\"success\": true`.",
+    "exampleKind": "code",
+    "example": "curl -X POST http://localhost:3300/api/sites \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"name\":\"shop\",\"title\":\"My Shop\"}'"
+  }
+]

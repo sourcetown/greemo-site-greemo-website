@@ -1,0 +1,26 @@
+{
+  "visual": "shot:real-dashboard-choose-project.webp",
+  "visualUrl": "localhost:2211",
+  "visualKind": "real",
+  "alt": "Greemo dashboard: Choose a project",
+  "source": "Source: README.md (Quick Start), docs/GETTING_STARTED.md, package.json (engines)",
+  "steps": [
+    {
+      "title": "Install dependencies",
+      "code": "npm install"
+    },
+    {
+      "title": "Start the development server",
+      "text": "This starts the Greemo web application at `http://localhost:2211`.",
+      "code": "npm run dev"
+    },
+    {
+      "title": "Create your first site (local-first)",
+      "text": "Open the web application, click **New Project**, select a project root folder when prompted (this becomes your workspace root) and start editing markdown under `sites/<slug>/content/*.md`."
+    },
+    {
+      "title": "Build all packages",
+      "code": "npm run build"
+    }
+  ]
+}

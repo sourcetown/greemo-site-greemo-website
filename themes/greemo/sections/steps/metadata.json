@@ -1,0 +1,81 @@
+{
+  "name": "steps",
+  "displayName": "Steps",
+  "description": "Numbered getting started steps.",
+  "component": "StepsSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "visual",
+      "type": "image",
+      "label": "Visual",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "visualUrl",
+      "type": "string",
+      "label": "Visual Url",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "visualKind",
+      "type": "string",
+      "label": "Visual Kind",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "alt",
+      "type": "string",
+      "label": "Alt",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "source",
+      "type": "string",
+      "label": "Source note",
+      "description": "Repo file that backs the claim, shown when Company has source notes switched on",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "steps",
+      "type": "array",
+      "label": "Steps",
+      "description": "Each item uses these fields. Add one to create another.",
+      "required": false,
+      "fields": [
+        {
+          "name": "title",
+          "type": "string",
+          "label": "Title"
+        },
+        {
+          "name": "code",
+          "type": "string",
+          "label": "Code"
+        },
+        {
+          "name": "text",
+          "type": "long",
+          "label": "Text"
+        }
+      ]
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "kind": "list",
+  "source": {
+    "type": "json",
+    "path": "data/endpoints.json"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "key",
+        "label": "Key",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "method",
+        "label": "Method",
+        "type": "select",
+        "options": [
+          "GET",
+          "POST"
+        ]
+      },
+      {
+        "name": "path",
+        "label": "Path",
+        "type": "textfield"
+      },
+      {
+        "name": "action",
+        "label": "Action",
+        "type": "textfield"
+      }
+    ],
+    "list": {
+      "columns": [
+        "method",
+        "path",
+        "action"
+      ],
+      "pagination": {
+        "pageSize": 20
+      }
+    }
+  },
+  "description": "HTTP API endpoints on localhost:3300 (docs/AI_TOOLS.md)",
+  "type": "static",
+  "formSchema": {
+    "fields": [
+      {
+        "name": "key",
+        "label": "Key",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "method",
+        "label": "Method",
+        "type": "select",
+        "options": [
+          "GET",
+          "POST"
+        ]
+      },
+      {
+        "name": "path",
+        "label": "Path",
+        "type": "textfield"
+      },
+      {
+        "name": "action",
+        "label": "Action",
+        "type": "textfield"
+      }
+    ],
+    "list": {
+      "columns": [
+        "method",
+        "path",
+        "action"
+      ],
+      "pagination": {
+        "pageSize": 20
+      }
+    }
+  }
+}

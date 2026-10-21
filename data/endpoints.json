@@ -1,0 +1,86 @@
+[
+  {
+    "key": "get-api-sites",
+    "method": "GET",
+    "path": "/api/sites",
+    "action": "List all sites"
+  },
+  {
+    "key": "post-api-sites",
+    "method": "POST",
+    "path": "/api/sites",
+    "action": "Create site"
+  },
+  {
+    "key": "post-api-sites-delete",
+    "method": "POST",
+    "path": "/api/sites/delete",
+    "action": "Delete site"
+  },
+  {
+    "key": "get-api-pages",
+    "method": "GET",
+    "path": "/api/pages?sitePath=…",
+    "action": "List pages"
+  },
+  {
+    "key": "post-api-pages",
+    "method": "POST",
+    "path": "/api/pages",
+    "action": "Add page"
+  },
+  {
+    "key": "post-api-pages-get",
+    "method": "POST",
+    "path": "/api/pages/get",
+    "action": "Get page content"
+  },
+  {
+    "key": "post-api-pages-update",
+    "method": "POST",
+    "path": "/api/pages/update",
+    "action": "Update page"
+  },
+  {
+    "key": "post-api-pages-delete",
+    "method": "POST",
+    "path": "/api/pages/delete",
+    "action": "Delete page"
+  },
+  {
+    "key": "get-api-settings",
+    "method": "GET",
+    "path": "/api/settings?sitePath=…",
+    "action": "Get settings"
+  },
+  {
+    "key": "post-api-settings",
+    "method": "POST",
+    "path": "/api/settings",
+    "action": "Update setting"
+  },
+  {
+    "key": "get-api-collections",
+    "method": "GET",
+    "path": "/api/collections?sitePath=…",
+    "action": "List collections"
+  },
+  {
+    "key": "post-api-collections-get",
+    "method": "POST",
+    "path": "/api/collections/get",
+    "action": "Get collection data"
+  },
+  {
+    "key": "post-api-collections-update",
+    "method": "POST",
+    "path": "/api/collections/update",
+    "action": "Update collection"
+  },
+  {
+    "key": "post-api-collections-delete",
+    "method": "POST",
+    "path": "/api/collections/delete",
+    "action": "Delete collection"
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "name": "page-hero",
+  "displayName": "Page hero",
+  "description": "Dark page heading with eyebrow, title and lead.",
+  "component": "PageHeroSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "pill",
+      "type": "string",
+      "label": "Pill",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Heading",
+      "description": "Main heading. Wrap words in *stars* to accent them where supported",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "lead",
+      "type": "long",
+      "label": "Lead",
+      "description": "Intro paragraph",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "ctas",
+      "type": "array",
+      "label": "Ctas",
+      "description": "Each item uses these fields. Add one to create another.",
+      "required": false,
+      "fields": [
+        {
+          "name": "label",
+          "type": "string",
+          "label": "Label"
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "label": "Path"
+        }
+      ]
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

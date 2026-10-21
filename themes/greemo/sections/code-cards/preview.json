@@ -1,0 +1,17 @@
+{
+  "source": "Source: docs/GETTING_STARTED.md (Using the CLI), README.md (Quick AI Example)",
+  "cards": [
+    {
+      "icon": "term",
+      "title": "Use the CLI",
+      "text": "Initialise, build, deploy and serve sites with `@greemo/cli`.",
+      "code": "npx @greemo/cli init my-site\nnpx @greemo/cli build -o dist\nnpx @greemo/cli deploy\nnpx @greemo/cli dev"
+    },
+    {
+      "icon": "sparkles",
+      "title": "Try the AI tools",
+      "text": "Configure AI, create a site, add a page and export it.",
+      "code": "# Configure AI (copy .env.example to .env and add your API key)\ncp .env.example .env\n\n# Create a site via CLI\ngreemo ai create-site --name blog --title \"My Blog\"\n\n# Add a page\ngreemo ai add-page --site-path ./sites/blog --page about --content \"# About\"\n\n# Export to Vue + Vite\ngreemo export --site ./sites/blog --output ./blog-export"
+    }
+  ]
+}

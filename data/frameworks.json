@@ -1,0 +1,32 @@
+[
+  {
+    "key": "vue",
+    "name": "Vue.js",
+    "colour": "#42b883",
+    "bullets": [
+      "Component-based architecture",
+      "Reactive data binding",
+      "Single File Components"
+    ]
+  },
+  {
+    "key": "react",
+    "name": "React",
+    "colour": "#149eca",
+    "bullets": [
+      "JSX support",
+      "Hooks and functional components",
+      "Component composition"
+    ]
+  },
+  {
+    "key": "svelte",
+    "name": "Svelte",
+    "colour": "#ff3e00",
+    "bullets": [
+      "Compile-time optimisation",
+      "Minimal runtime",
+      "Reactive statements"
+    ]
+  }
+]

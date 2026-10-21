@@ -1,0 +1,89 @@
+{
+  "name": "sections-library",
+  "displayName": "Sections library",
+  "description": "Chips naming the sections in the library.",
+  "component": "SectionsLibrarySection",
+  "category": "content",
+  "props": [
+    {
+      "name": "eyebrow",
+      "type": "string",
+      "label": "Eyebrow",
+      "description": "Small label above the heading",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Heading",
+      "description": "Main heading. Wrap words in *stars* to accent them where supported",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "intro",
+      "type": "string",
+      "label": "Intro",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "visual",
+      "type": "image",
+      "label": "Visual",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "visualUrl",
+      "type": "string",
+      "label": "Visual Url",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "alt",
+      "type": "string",
+      "label": "Alt",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "code",
+      "type": "string",
+      "label": "Code",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "source",
+      "type": "string",
+      "label": "Source note",
+      "description": "Repo file that backs the claim, shown when Company has source notes switched on",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "items",
+      "type": "string",
+      "label": "Items",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

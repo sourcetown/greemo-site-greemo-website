@@ -1,0 +1,27 @@
+{
+  "eyebrow": "How it works",
+  "title": "From markdown to a deployed site",
+  "source": "Source: docs/ARCHITECTURE.md (Data Flow)",
+  "steps": [
+    {
+      "title": "Edit",
+      "text": "Create and edit content in the web app."
+    },
+    {
+      "title": "Parse",
+      "text": "Content is parsed by the MarkdownParser."
+    },
+    {
+      "title": "Extract",
+      "text": "Template annotations are extracted and turned into section components."
+    },
+    {
+      "title": "Generate",
+      "text": "The TemplateEngine generates a Vue/Vite site for build and preview."
+    },
+    {
+      "title": "Ship",
+      "text": "The site is built and optionally deployed."
+    }
+  ]
+}

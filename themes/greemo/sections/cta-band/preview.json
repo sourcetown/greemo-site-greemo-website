@@ -1,0 +1,15 @@
+{
+  "title": "Start building with Greemo",
+  "text": "Install the dependencies and start the development server. The Greemo web application runs at `http://localhost:2211`.",
+  "ctas": [
+    {
+      "label": "Get started",
+      "path": "/get-started"
+    },
+    {
+      "label": "View plans",
+      "path": "/pricing"
+    }
+  ],
+  "code": "# Install dependencies\nnpm install\n\n# Start development server\nnpm run dev\n\n# Build all packages\nnpm run build"
+}

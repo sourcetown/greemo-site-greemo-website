@@ -1,0 +1,73 @@
+{
+  "name": "pricing",
+  "displayName": "Pricing",
+  "description": "Pricing tiers from the plans collection.",
+  "component": "PricingSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "note",
+      "type": "long",
+      "label": "Note",
+      "description": "Closing line before the links to the Terms of Use and Privacy Policy",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "popularLabel",
+      "type": "string",
+      "label": "Popular Label",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "compareRows",
+      "type": "string",
+      "label": "Compare Rows",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "compareLabel",
+      "type": "string",
+      "label": "Compare Label",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "compareValue",
+      "type": "string",
+      "label": "Compare Value",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "items",
+      "type": "string",
+      "label": "Items",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "compare",
+      "type": "string",
+      "label": "Compare",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

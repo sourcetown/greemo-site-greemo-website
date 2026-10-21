@@ -1,0 +1,89 @@
+{
+  "kind": "list",
+  "source": {
+    "type": "json",
+    "path": "data/frameworks.json"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "key",
+        "label": "Key",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "textfield"
+      },
+      {
+        "name": "colour",
+        "label": "Colour",
+        "type": "color"
+      },
+      {
+        "name": "bullets",
+        "label": "Bullets",
+        "type": "repeater",
+        "fields": [
+          {
+            "name": "value",
+            "label": "Bullet",
+            "type": "textfield"
+          }
+        ]
+      }
+    ],
+    "list": {
+      "columns": [
+        "name"
+      ],
+      "pagination": {
+        "pageSize": 20
+      }
+    }
+  },
+  "description": "Supported frameworks (docs/GETTING_STARTED.md)",
+  "type": "static",
+  "formSchema": {
+    "fields": [
+      {
+        "name": "key",
+        "label": "Key",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "textfield"
+      },
+      {
+        "name": "colour",
+        "label": "Colour",
+        "type": "color"
+      },
+      {
+        "name": "bullets",
+        "label": "Bullets",
+        "type": "repeater",
+        "fields": [
+          {
+            "name": "value",
+            "label": "Bullet",
+            "type": "textfield"
+          }
+        ]
+      }
+    ],
+    "list": {
+      "columns": [
+        "name"
+      ],
+      "pagination": {
+        "pageSize": 20
+      }
+    }
+  }
+}

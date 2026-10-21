@@ -1,0 +1,19 @@
+{
+  "__dataset__": "frameworks",
+  "source": "Source: docs/GETTING_STARTED.md (Framework Support)",
+  "row": {
+    "eyebrow": "Switch frameworks",
+    "title": "Choose the framework in Settings",
+    "text": "The framework is a project setting alongside the build directory, auto-save and live preview. Tailwind 4 styling integration comes built in.",
+    "ticks": [
+      "Framework: Vue.js, React or Svelte",
+      "Build directory and output settings",
+      "Light, Dark or Auto editor theme"
+    ],
+    "visual": "shot:real-settings-framework.webp",
+    "visualUrl": "localhost:2211/settings",
+    "visualKind": "real",
+    "alt": "Greemo Settings",
+    "source": "apps/web Settings view (real screenshot), README.md"
+  }
+}

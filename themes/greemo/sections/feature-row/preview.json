@@ -1,0 +1,17 @@
+{
+  "anchor": "assistant",
+  "tint": true,
+  "eyebrow": "In-editor AI assistant",
+  "title": "Natural language editing inside the editor",
+  "text": "Open a site in the Greemo editor, type your request in natural language, then review and apply or reject each change. The assistant needs AI configuration and the API server, which starts automatically with `npm run dev`.",
+  "ticks": [
+    "\"Add a new page called 'Services'\"",
+    "\"Update the home page content to include our mission statement\"",
+    "\"Create a collection for blog posts with title and date fields\"",
+    "\"Add a hero section to the about page\""
+  ],
+  "visual": "ui-ai",
+  "visualUrl": "localhost:2211/editor/andrewsuk",
+  "visualKind": "recreation",
+  "source": "docs/AI_TOOLS.md (In-Editor AI Assistant, Example Prompts), apps/web/src/components/AiBar.vue"
+}

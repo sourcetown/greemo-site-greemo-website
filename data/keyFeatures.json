@@ -1,0 +1,83 @@
+[
+  {
+    "key": "ai-import",
+    "order": 1,
+    "title": "Bring any website in with the help of AI",
+    "text": "Point Greemo at your current site and let AI help move it across: pages, copy, images and structure become markdown content, collections and templates in your Greemo workspace. Then you review and edit everything visually.",
+    "ticks": [
+      "Pages become markdown files under `sites/<slug>/content/`",
+      "Repeating content becomes JSON collections, such as services or posts",
+      "Layout becomes theme sections via template annotations",
+      "Review and apply or reject each AI change, then refine it in the visual editor"
+    ],
+    "visual": "ui-import",
+    "visualUrl": "localhost:2211/editor/your-website",
+    "visualKind": "recreation",
+    "backing": "concept",
+    "source": "Grounded in: docs/AI_TOOLS.md (create-site, add-page, update-collection; review and apply in the assistant). The URL import flow shown is a concept."
+  },
+  {
+    "key": "import",
+    "order": 2,
+    "title": "Get your website in",
+    "text": "Already have the code or the content? Bring it in without AI. Greemo imports a Vue + Vite project back into a site with round-trip support, and your pages are plain markdown with comment-tag templates.",
+    "ticks": [
+      "`greemo import --input … --output …` turns a Vue + Vite project into a Greemo site",
+      "Export, import and export again: the files should be identical",
+      "Markdown pages with `<!-- template name=\"hero\" -->` tags"
+    ],
+    "visual": "vis-import",
+    "visualUrl": "",
+    "visualKind": "none",
+    "backing": "full",
+    "source": "Source: docs/AI_TOOLS.md (Export/Import, Round-Trip), packages/cli/src/cli.ts (import)"
+  },
+  {
+    "key": "performance",
+    "order": 3,
+    "title": "Don’t worry about performance any more",
+    "text": "Greemo sites are built ahead of time. Markdown and theme sections become a Vue/Vite site, compiled into static pages you can host anywhere, styled with Tailwind 4.",
+    "ticks": [
+      "Static site generation with `@greemo/cli`",
+      "Vite production builds, with Tailwind 4 styling",
+      "Deploy over SSH, to S3 or to GitHub Pages"
+    ],
+    "visual": "vis-perf",
+    "visualUrl": "",
+    "visualKind": "none",
+    "backing": "general",
+    "source": "Source: README.md, docs/ARCHITECTURE.md (Data Flow, Build Process), docs/GETTING_STARTED.md (Deployment)"
+  },
+  {
+    "key": "data",
+    "order": 4,
+    "title": "Connect it to any data source",
+    "text": "Content does not have to live in one place. Collections read from local JSON or a REST endpoint, pages pull data in with data tags, and static JSON, YAML and CSV files are supported. SQLite and database sources are listed as coming soon in the editor.",
+    "ticks": [
+      "Collections from Local JSON or REST",
+      "Data tags such as `<!-- data source=\"posts\" format=\"json\" -->`",
+      "API data sources configured in `greemo.config.json`"
+    ],
+    "visual": "vis-data",
+    "visualUrl": "",
+    "visualKind": "none",
+    "backing": "partial",
+    "source": "Source: docs/GETTING_STARTED.md (Data Sources), docs/ARCHITECTURE.md (Data Tags), apps/web/src/components/DatasetTabEditor.vue, packages/core/src/types.ts"
+  },
+  {
+    "key": "local",
+    "order": 5,
+    "title": "Work locally",
+    "text": "Greemo runs on your own machine. Start it with `npm run dev`, choose the folder where your sites live, and every site is plain files you can keep in a git repo.",
+    "ticks": [
+      "Local-first: reads and writes `sites/<slug>/…` on disk",
+      "The web app runs at `http://localhost:2211`",
+      "See the commits that changed a page from the editor"
+    ],
+    "visual": "vis-local",
+    "visualUrl": "",
+    "visualKind": "none",
+    "backing": "full",
+    "source": "Source: docs/GETTING_STARTED.md (Quick Start), docs/ARCHITECTURE.md (@greemo/web), apps/web/src/components/PageGitHistory.vue"
+  }
+]

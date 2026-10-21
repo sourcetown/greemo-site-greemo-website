@@ -1,0 +1,22 @@
+{
+  "siteUrl": "",
+  "siteName": "Greemo",
+  "siteDescription": "Greemo is a lightweight visual website builder with markdown content, framework-agnostic templates and AI-facing tools for site generation and management.",
+  "keywords": [
+    "website builder",
+    "visual editor",
+    "markdown",
+    "cms",
+    "vue",
+    "react",
+    "svelte"
+  ],
+  "theme": {
+    "name": "greemo",
+    "primaryColor": "#16cd87",
+    "secondaryColor": "#214d4a",
+    "fontFamily": "'Plus Jakarta Sans', system-ui, sans-serif"
+  },
+  "title": "Greemo",
+  "description": "Greemo is a lightweight visual website builder with markdown content, framework-agnostic templates and AI-facing tools for site generation and management."
+}

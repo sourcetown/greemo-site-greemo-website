@@ -1,0 +1,87 @@
+{
+  "name": "framework-cards",
+  "displayName": "Framework cards",
+  "description": "Vue.js, React and Svelte template cards from the frameworks collection.",
+  "component": "FrameworkCardsSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "source",
+      "type": "string",
+      "label": "Source note",
+      "description": "Repo file that backs the claim, shown when Company has source notes switched on",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "row",
+      "type": "object",
+      "label": "Row",
+      "description": "",
+      "required": false,
+      "fields": [
+        {
+          "name": "eyebrow",
+          "type": "string",
+          "label": "Eyebrow"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "label": "Title"
+        },
+        {
+          "name": "text",
+          "type": "long",
+          "label": "Text"
+        },
+        {
+          "name": "ticks",
+          "type": "lines",
+          "label": "Ticks"
+        },
+        {
+          "name": "visual",
+          "type": "image",
+          "label": "Visual"
+        },
+        {
+          "name": "visualUrl",
+          "type": "string",
+          "label": "Visual Url"
+        },
+        {
+          "name": "visualKind",
+          "type": "string",
+          "label": "Visual Kind"
+        },
+        {
+          "name": "alt",
+          "type": "string",
+          "label": "Alt"
+        },
+        {
+          "name": "source",
+          "type": "string",
+          "label": "Source"
+        }
+      ]
+    },
+    {
+      "name": "items",
+      "type": "string",
+      "label": "Items",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

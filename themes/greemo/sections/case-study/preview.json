@@ -1,0 +1,33 @@
+{
+  "eyebrow": "Built with Greemo",
+  "title": "Andrews UK",
+  "text": "AUK is the UK’s leading global independent eBook and physical book publisher and distributor. Its site runs on Greemo with its own theme, sections and data.",
+  "facts": [
+    {
+      "label": "Theme",
+      "value": "andrewsuk, custom header and footer"
+    },
+    {
+      "label": "Colours",
+      "swatches": [
+        "#17795F",
+        "#24C494"
+      ]
+    },
+    {
+      "label": "Typeface",
+      "value": "Manrope"
+    },
+    {
+      "label": "Pages",
+      "value": "home, about, services, imprints, publishers, faqs, contact"
+    },
+    {
+      "label": "Home sections",
+      "value": "hero, stats, services-grid, brand-strip, publisher-pitch, logo-wall, contact-band"
+    }
+  ],
+  "source": "Source: sites/andrewsuk/settings.json, sites/andrewsuk/content/",
+  "visual": "ui-auk-preview",
+  "visualUrl": "localhost:2211/preview"
+}

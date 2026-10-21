@@ -1,0 +1,68 @@
+{
+  "name": "ai-surfaces",
+  "displayName": "AI surfaces",
+  "description": "Three cards for the editor, terminal and HTTP ways AI works with sites.",
+  "component": "AiSurfacesSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "eyebrow",
+      "type": "string",
+      "label": "Eyebrow",
+      "description": "Small label above the heading",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Heading",
+      "description": "Main heading. Wrap words in *stars* to accent them where supported",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "intro",
+      "type": "string",
+      "label": "Intro",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "link",
+      "type": "object",
+      "label": "Link",
+      "description": "",
+      "required": false,
+      "fields": [
+        {
+          "name": "label",
+          "type": "string",
+          "label": "Label"
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "label": "Path"
+        }
+      ]
+    },
+    {
+      "name": "items",
+      "type": "string",
+      "label": "Items",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

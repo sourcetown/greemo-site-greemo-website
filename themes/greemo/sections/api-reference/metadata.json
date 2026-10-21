@@ -1,0 +1,88 @@
+{
+  "name": "api-reference",
+  "displayName": "API reference",
+  "description": "Table of HTTP endpoints from the endpoints collection.",
+  "component": "ApiReferenceSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "eyebrow",
+      "type": "string",
+      "label": "Eyebrow",
+      "description": "Small label above the heading",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Heading",
+      "description": "Main heading. Wrap words in *stars* to accent them where supported",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "intro",
+      "type": "string",
+      "label": "Intro",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "note",
+      "type": "long",
+      "label": "Note",
+      "description": "Closing line before the links to the Terms of Use and Privacy Policy",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "source",
+      "type": "string",
+      "label": "Source note",
+      "description": "Repo file that backs the claim, shown when Company has source notes switched on",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "examples",
+      "type": "array",
+      "label": "Examples",
+      "description": "",
+      "required": false
+    },
+    {
+      "name": "items",
+      "type": "string",
+      "label": "Items",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "endpoint",
+      "type": "string",
+      "label": "Endpoint",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "action",
+      "type": "string",
+      "label": "Action",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

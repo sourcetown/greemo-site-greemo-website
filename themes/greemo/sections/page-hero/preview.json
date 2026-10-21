@@ -1,0 +1,19 @@
+{
+  "pill": "AI tools",
+  "title": "Programmatic site management for people and AI agents",
+  "lead": "Greemo provides three ways for AI agents to interact with sites: CLI commands with JSON output, an HTTP API for programmatic access and an in-editor AI assistant for AI-assisted editing.",
+  "ctas": [
+    {
+      "label": "CLI commands",
+      "path": "/ai-tools#cli"
+    },
+    {
+      "label": "HTTP API",
+      "path": "/ai-tools#api"
+    },
+    {
+      "label": "In-editor assistant",
+      "path": "/ai-tools#assistant"
+    }
+  ]
+}

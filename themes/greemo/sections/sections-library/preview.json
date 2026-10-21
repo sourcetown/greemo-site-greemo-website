@@ -1,0 +1,11 @@
+{
+  "__dataset__": "sectionsLibrary",
+  "eyebrow": "Sections library",
+  "title": "Reusable sections for any theme",
+  "intro": "Add a section to a theme with `greemo sections add demo features-slider`, or install a whole theme and choose which files render the header and footer.",
+  "visual": "shot:real-blocks-library.webp",
+  "visualUrl": "localhost:2211/blocks",
+  "alt": "Greemo Blocks library",
+  "code": "# List available sections\ngreemo sections list\n\n# Add a section to a theme\ngreemo sections add <site-name> [section-name]\n\n# Sync standardised sections to every site\ngreemo sections sync --force\n\n# Install a website theme into a site\ngreemo theme install",
+  "source": "Source: packages/sections/README.md, packages/sections/SECTIONS_LIBRARY.md, packages/sections/sections/, packages/cli/src/cli.ts"
+}

@@ -1,0 +1,18 @@
+{
+  "pill": "Visual website builder",
+  "title": "Build and run every site from one *visual editor*",
+  "lead": "AI helps you get content in. Greemo does the rest.",
+  "ctas": [
+    {
+      "label": "Get started",
+      "path": "/get-started"
+    },
+    {
+      "label": "See all features",
+      "path": "/features"
+    }
+  ],
+  "visual": "ui-ai-compact",
+  "visualUrl": "localhost:2211/editor/andrewsuk",
+  "terminal": true
+}

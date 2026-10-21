@@ -1,0 +1,53 @@
+[
+  {
+    "key": "starter",
+    "name": "[PLACEHOLDER: Starter]",
+    "price": "[PLACEHOLDER: price]",
+    "period": "/ month",
+    "description": "[PLACEHOLDER: tier description]",
+    "features": [
+      "[PLACEHOLDER: feature line]",
+      "[PLACEHOLDER: feature line]",
+      "[PLACEHOLDER: feature line]",
+      "[PLACEHOLDER: feature line]"
+    ],
+    "cta": "Choose plan",
+    "ctaPath": "/get-started#contact",
+    "popular": false
+  },
+  {
+    "key": "pro",
+    "name": "[PLACEHOLDER: Pro]",
+    "price": "[PLACEHOLDER: price]",
+    "period": "/ month",
+    "description": "[PLACEHOLDER: tier description]",
+    "features": [
+      "[PLACEHOLDER: feature line]",
+      "[PLACEHOLDER: feature line]",
+      "[PLACEHOLDER: feature line]",
+      "[PLACEHOLDER: feature line]",
+      "[PLACEHOLDER: feature line]"
+    ],
+    "cta": "Choose plan",
+    "ctaPath": "/get-started#contact",
+    "popular": true
+  },
+  {
+    "key": "team",
+    "name": "[PLACEHOLDER: Team]",
+    "price": "[PLACEHOLDER: price]",
+    "period": "/ month",
+    "description": "[PLACEHOLDER: tier description]",
+    "features": [
+      "[PLACEHOLDER: feature line]",
+      "[PLACEHOLDER: feature line]",
+      "[PLACEHOLDER: feature line]",
+      "[PLACEHOLDER: feature line]",
+      "[PLACEHOLDER: feature line]",
+      "[PLACEHOLDER: feature line]"
+    ],
+    "cta": "Contact us",
+    "ctaPath": "/get-started#contact",
+    "popular": false
+  }
+]

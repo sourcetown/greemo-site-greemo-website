@@ -1,0 +1,40 @@
+[
+  {
+    "key": "sites",
+    "area": "Sites",
+    "commands": [
+      "create-site",
+      "list-sites",
+      "delete-site"
+    ]
+  },
+  {
+    "key": "pages",
+    "area": "Pages",
+    "commands": [
+      "add-page",
+      "list-pages",
+      "get-page",
+      "update-page",
+      "delete-page"
+    ]
+  },
+  {
+    "key": "settings",
+    "area": "Settings",
+    "commands": [
+      "get-settings",
+      "update-setting"
+    ]
+  },
+  {
+    "key": "collections",
+    "area": "Collections",
+    "commands": [
+      "list-collections",
+      "get-collection",
+      "update-collection",
+      "delete-collection"
+    ]
+  }
+]

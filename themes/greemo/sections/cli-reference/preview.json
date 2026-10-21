@@ -1,0 +1,12 @@
+{
+  "__dataset__": "cliCommands",
+  "eyebrow": "CLI commands",
+  "title": "Every `greemo ai` command returns JSON",
+  "intro": "All AI commands use the `greemo ai` prefix, so scripts and agents can parse every result.",
+  "source": "Source: docs/AI_TOOLS.md (CLI Commands), packages/cli/src/cli.ts",
+  "examples": [
+    "greemo ai create-site \\\n  --name my-site \\\n  --title \"My Awesome Site\" \\\n  --description \"A great website\"",
+    "{\n  \"success\": true,\n  \"sitePath\": \"./sites/my-site\",\n  \"message\": \"Site created successfully\"\n}",
+    "greemo ai update-setting \\\n  --site-path ./sites/my-site \\\n  --key theme.primaryColor \\\n  --value '\"#ff0000\"'"
+  ]
+}

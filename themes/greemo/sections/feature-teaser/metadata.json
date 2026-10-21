@@ -1,0 +1,96 @@
+{
+  "name": "feature-teaser",
+  "displayName": "Feature teaser",
+  "description": "Short feature intro with a visual and a link.",
+  "component": "FeatureTeaserSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "eyebrow",
+      "type": "string",
+      "label": "Eyebrow",
+      "description": "Small label above the heading",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Heading",
+      "description": "Main heading. Wrap words in *stars* to accent them where supported",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "cta",
+      "type": "object",
+      "label": "Button",
+      "description": "Object with label and path",
+      "required": false,
+      "fields": [
+        {
+          "name": "label",
+          "type": "string",
+          "label": "Label"
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "label": "Path"
+        }
+      ]
+    },
+    {
+      "name": "cards",
+      "type": "array",
+      "label": "Cards",
+      "description": "Each item uses these fields. Add one to create another.",
+      "required": false,
+      "fields": [
+        {
+          "name": "title",
+          "type": "string",
+          "label": "Title"
+        },
+        {
+          "name": "text",
+          "type": "long",
+          "label": "Text"
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "label": "Path"
+        },
+        {
+          "name": "visual",
+          "type": "image",
+          "label": "Visual"
+        },
+        {
+          "name": "wide",
+          "type": "boolean",
+          "label": "Wide"
+        },
+        {
+          "name": "alt",
+          "type": "string",
+          "label": "Alt"
+        },
+        {
+          "name": "code",
+          "type": "long",
+          "label": "Code"
+        }
+      ]
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}
