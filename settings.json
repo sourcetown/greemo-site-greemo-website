@@ -11,8 +11,8 @@
     "svelte"
   ],
   "author": "",
-  "domain": "",
-  "siteUrl": "",
+  "domain": "greemo-website.greemo.app",
+  "siteUrl": "https://greemo-website.greemo.app",
   "favicon": "/media/favicons/favicon-32x32.png",
   "favicons": {
     "svg": "/media/favicons/favicon.svg",
@@ -46,6 +46,7 @@
       "enabled": true,
       "repoUrl": "https://github.com/sourcetown/greemo-site-greemo-website.git",
       "branch": "main",
+      "stagingBranch": "staging",
       "buildBranch": "gh-pages",
       "remote": "origin",
       "autoCommit": false,
@@ -65,8 +66,14 @@
       "password": "",
       "remotePath": ""
     },
+    "domains": {
+      "test": "staging-greemo-website.greemo.app",
+      "live": "greemo-website.greemo.app",
+      "username": "preview",
+      "password": "BBhe4-KroUaU1KCNIhLdTDOm"
+    },
     "cloudflare": {
-      "hostname": ""
+      "hostname": "greemo-website.greemo.app"
     },
     "dataApi": {
       "publicBase": ""
